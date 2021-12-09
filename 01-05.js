@@ -16,3 +16,20 @@ function multiply(a, b){
 const greet = () => {
   return "hello world!"
 }
+
+// 4 Convert boolean values to strings 'Yes' or 'No'.
+
+function boolToWord( bool ){
+  var a = bool.toString();
+  if(a=='true')
+    return 'Yes';
+  else
+    return 'No';
+}
+
+// 5 Returning Strings
+
+function greet(name){
+  //your code here
+  return `Hello, ${name} how are you doing today?`;
+}

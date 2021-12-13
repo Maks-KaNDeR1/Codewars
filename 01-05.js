@@ -20,11 +20,11 @@ const greet = () => {
 // 4 Convert boolean values to strings 'Yes' or 'No'.
 
 function boolToWord( bool ){
-  var a = bool.toString();
-  if(a=='true')
-    return 'Yes';
-  else
-    return 'No';
+ if(bool == true) {
+   return "Yes"
+ } else {
+   return "No"
+ }
 }
 
 // 5 Returning Strings

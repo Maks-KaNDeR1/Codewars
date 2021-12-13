@@ -19,4 +19,12 @@ function switchItUp(number){
   return words[number]; 
 }
 
-// 9 
+// 9 Use map() to double the values in an array
+function double(array) {
+   return array.map(x => x * 2)
+}
+
+// 10 Beginner - Lost Without a Map
+function maps(x){
+   return x.map(n => n * 2)
+}

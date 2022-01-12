@@ -78,3 +78,22 @@ function pushElement(arr){
   arr.push(el)
   return arr
 }
+
+#5: Basic data types--Object
+
+function animal(obj){
+  let newAnimal = {
+    name: obj.name,
+    legs: obj.legs,
+    color: obj.color
+  }
+  
+  return `This ${newAnimal.color} ${newAnimal.name} has ${newAnimal.legs} legs.`
+}
+
+#6: Basic data types--Boolean and conditional statements if..else
+
+function trueOrFalse(val){
+    if (val == false )    return "false";             
+  else     return "true";
+}
